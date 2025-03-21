@@ -41,6 +41,7 @@ local Tabs = {
     Blox = Window:AddTab({ Title = "Tap Script Blox Fruit", Icon = "home" }),
     King = Window:AddTab({ Title = "Tap Script King Legacy", Icon = "home" }),
     Meme = Window:AddTab({ Title = "Tap Script Meme Sea", Icon = "home" }),
+    Info = Window:AddTab({ Title = "Tap Script Thông Tin", Icon = "home" }),
 }
 
 Tabs.Blox:AddButton({
@@ -655,5 +656,128 @@ Title = "Shiny Hub",
         Description = "",
         Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ZaqueHub/ShinyHub/main/AllScript"))()
+        end
+    })
+Tabs.Blox:AddButton({
+Title = "Hades  Hub",
+        Description = "",
+        Callback = function()
+getgenv().Team = "Pirates" -- Pirates, Marines
+getgenv().AntiCrash = false -- Anti Crash when load script/func idk
+getgenv().BoostFps = false -- recommend if you have bad phone
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ItzWindy01/Loadstring/main/HadesGod.lua"))()
+        end
+    })
+
+Tabs.Blox:AddButton({
+Title = "Sitink  Hub",
+        Description = "",
+        Callback = function()
+getgenv().Team = "Pirates"
+getgenv().Executor = "Android" -- Android or PC --
+loadstring(game:HttpGet("https://raw.githubusercontent.com/MinhNghia2k11/Main/main/SitinksHub.lua"))()
+        end
+    })
+
+Tabs.Blox:AddButton({
+Title = "Brutality v2 Hub",
+        Description = "",
+        Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/MedusaScript/Botuna/main/BrutalityV2.lua'))()
+        end
+    })
+
+Tabs.Blox:AddButton({
+Title = "Kind  Hub",
+        Description = "",
+        Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Jadelly261/BloxFruits/main/KindHub"))()
+        end
+    })
+Tabs.King:AddButton({
+Title = "Hyper  Hub",
+        Description = "",
+        Callback = function()
+repeat wait() until game:IsLoaded()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/DookDekDEE/Hyper/main/script.lua"))()
+        end
+    })
+Tabs.King:AddButton({
+Title = "Arc  Hub",
+        Description = "",
+        Callback = function()
+getgenv().CustomDistance = 10 -- For Bug Can't Swipe Distance
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ChopLoris/ArcHub/main/main.lua"))()
+        end
+    })
+Tabs.King:AddButton({
+Title = "Zee  Hub",
+        Description = "",
+        Callback = function()
+loadstring(game:HttpGet('https://zuwz.me/Ls-Zee-Hub-KL'))()
+        end
+    })
+
+Tabs.King:AddButton({
+Title = "Zen  Hub",
+        Description = "",
+        Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Zenhubtop/zen_hub_pr/main/zennewwwwui.lua", true))()
+        end
+    })
+
+Tabs.King:AddButton({
+Title = "Hluk  Hub",
+        Description = "",
+        Callback = function()
+loadstring(game:HttpGet"https://raw.githubusercontent.com/HULKUexe/mobileX/main/FreeScript.lua")()
+        end
+    })
+
+Tabs.King:AddButton({
+Title = "Winnable V6 Hub",
+        Description = "",
+        Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Winnablez/Winnable/main/Loader")){}
+-- Link Get Key : https://bit.ly/3Dw6CiR
+        end
+    })
+
+Tabs.King:AddButton({
+Title = "Adel  Hub",
+        Description = "",
+        Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AdelOnTheTop/Adel-Hub/main/Main.lua"))()
+        end
+    })
+
+Tabs.King:AddButton({
+Title = "Black Trap Hub",
+        Description = "",
+        Callback = function()
+loadstring(game:HttpGetAsync("https://blacktrap.org/blacktrap/users/checkpoint/Auth.txt"))()
+        end
+    })
+
+Tabs.King:AddButton({
+Title = "Blue  Hub",
+        Description = "",
+        Callback = function()
+        end
+    })
+
+Tabs.King:AddButton({
+Title = "Mukuro  Hub",
+        Description = "",
+        Callback = function()
+loadstring(game:HttpGet"https://raw.githubusercontent.com/xQuartyx/DonateMe/main/ScriptLoader")()
+        end
+    })
+
+Tabs.King:AddButton({
+Title = "Speed  Hub",
+        Description = "",
+        Callback = function()
+loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/ahmadsgamer2/Speed-Hub-X/main/SpeedHubX"))()
         end
     })
