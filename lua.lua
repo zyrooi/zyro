@@ -38,10 +38,10 @@ local Window = Fluent:CreateWindow({
 })
 
 local Tabs = {
-    Blox = Window:AddTab({ Title = "Tap Script Blox Fruit", Icon = "home" }),
-    King = Window:AddTab({ Title = "Tap Script King Legacy", Icon = "home" }),
-    Meme = Window:AddTab({ Title = "Tap Script Meme Sea", Icon = "home" }),
-    Info = Window:AddTab({ Title = "Tap Script Thông Tin", Icon = "home" }),
+    Blox = Window:AddTab({ Title = "Tap Script Blox Fruit", Icon = "" }),
+    King = Window:AddTab({ Title = "Tap Script King Legacy", Icon = "" }),
+    Meme = Window:AddTab({ Title = "Tap Script Meme Sea", Icon = "" }),
+    Info = Window:AddTab({ Title = "Tap Script Thông Tin", Icon = "" }),
 }
 
 Tabs.Blox:AddButton({
